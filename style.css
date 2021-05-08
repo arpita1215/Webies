@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url('Background.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.mainhead{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainhead .logo img{
+    width: 250px;
+    height: 100px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.mainhead nav{
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.search{
+    margin-right: 100px;
+}
+.mainhead nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: cornflowerblue;
+}
+.mainhead button{
+    padding: 10px 45px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    border: none;
+    background-color: turquoise;
+    border-radius: 10px;
+}
+main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .left-sec{
+    padding-left: 100px;
+
+}
+.left-sec h2{
+    font-size: 40px;
+    color: turquoise;
+    font-weight: lighter;
+    margin-top: 150px;
+}
+.left-sec h1{
+    font-size: 80px;
+    color: purple;
+    margin: 12px 0;
+}
+.left-sec button{
+    padding: 20px 45px;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    border: none;
+    background-color: turquoise;
+    border-radius: 10px;
+}
